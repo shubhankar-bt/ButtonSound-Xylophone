@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sound 1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:textAlignment="center"
+        android:paddingVertical="20dp"
+        android:textColor="@color/black"
+        android:typeface="monospace"
+        android:background="@drawable/button1_bac"
+        android:textSize="18sp"
+        />
+
+
+    <TextView
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sound 2"
+        android:layout_below="@id/btn1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"
+        android:textAlignment="center"
+        android:paddingVertical="20dp"
+        android:textColor="@color/black"
+        android:typeface="monospace"
+        android:background="@drawable/button2_bac"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn2"
+        android:text="Sound 3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:paddingVertical="20dp"
+        android:textAlignment="center"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/black"
+        android:typeface="monospace"
+        android:background="@drawable/button3_bac"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sound 4"
+        android:layout_below="@id/btn3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:paddingHorizontal="80dp"
+        android:layout_marginHorizontal="20dp"
+        android:textAlignment="center"
+        android:paddingVertical="20dp"
+        android:textColor="@color/black"
+        android:typeface="monospace"
+        android:background="@drawable/button4_bac"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sound 5"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn4"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:paddingVertical="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/black"
+        android:typeface="monospace"
+        android:background="@drawable/button5_bac"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/btn6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sound 6"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn5"
+        android:layout_marginTop="30dp"
+        android:paddingVertical="20dp"
+        android:textAlignment="center"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/black"
+        android:typeface="monospace"
+        android:background="@drawable/button6_bac"
+        android:textSize="18sp"
+        />
+
+
+    <ImageView
+        android:id="@+id/playPauseButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:visibility="gone"
+        android:src="@drawable/stop">
+
+    </ImageView>
+
+
+
+</RelativeLayout>
